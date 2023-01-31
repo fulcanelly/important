@@ -1,6 +1,6 @@
 CC = g++
 OLEVEL = 0
-OTHER =
+OTHER = -std=c++17
 ALL = $(OTHER) -O$(OLEVEL)
 
 build: jumping linear
